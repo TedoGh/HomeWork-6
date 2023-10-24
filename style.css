@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+#modalWrapper {
+  display: none;
+}
+
+.modal {
+  background: #0075ff;
+  color: #e0e0e0;
+  padding: 2em;
+  border-radius: 0.5em;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content {
+  border-top: 1px solid #e0e0e0;
+}
